@@ -1,0 +1,23 @@
+#======================================================#
+#LabName: lab5 - lab1
+#Description: A function that uses command line arguments.
+#This function will print two variables used,
+#the script and then the script AND variables.
+#AuthorName: Carmela Isabel Rambacud
+#AuthorStudent#: 144524204
+#OPS445 NBB - Ben Singh
+#======================================================#
+
+
+#!/usr/bin/env python3
+
+import sys #impory sys module
+
+name = sys.argv[1]      #firstargument
+color = sys.argv[2] #secondargument
+nandc = sys.argv[0] #argument that shows script name
+
+print('Your name is ' + name + ' and your favorite color is ' + color + '.')
+print('The variables and script used are ' + name + color + nandc)
+
+
