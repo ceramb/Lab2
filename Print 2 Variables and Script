@@ -20,4 +20,9 @@ nandc = sys.argv[0] #argument that shows script name
 print('Your name is ' + name + ' and your favorite color is ' + color + '.')
 print('The variables and script used are ' + name + color + nandc)
 
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
 
